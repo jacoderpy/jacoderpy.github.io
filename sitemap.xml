@@ -1,0 +1,29 @@
+<search>
+    
+     <entry>
+        <title>Posts</title>
+        <url>https://jacoderpy.github.io/post/</url>
+        <categories>
+          
+        </categories>
+        <tags>
+          
+        </tags>
+        <content type="html"> </content>
+    </entry>
+    
+     <entry>
+        <title>基础知识</title>
+        <url>https://jacoderpy.github.io/post/blog/</url>
+        <categories>
+          <category>Tech</category>
+        </categories>
+        <tags>
+          <tag>Rust</tag><tag>Programing</tag>
+        </tags>
+        <content type="html">  面向对象语言的三大特征  封装 继承 多态  整个生命周期中贯穿使用OO面向对象方式  面向对象的分析：OOA 面向对象的设计：OOD 面向对象的编程：OOP  类  类在现实生活中是不存在的，是一个模板，是一个概念，是人类大脑思考抽象的结果 类代表一类事物 在显示生活中，对象A和对象B具有共同的特征，进行抽象总结出一个模板，这个模板成为类 类描述的是对象的共同特征，共同特征例如身高特征，当这个身高特征在被访问的时候，必须先创建对象，通过对象去访问这个特征，因为这个特征具体到某个对象时，该特征可能不同。  对象  实际存在的个体，在显示生活中实际存在 对象又被称为实例/instance 类 &amp;ndash;[实例化] &amp;ndash;&amp;gt; 对象 对象 &amp;ndash;[抽象]&amp;ndash;&amp;gt; 类  属性 通常是才用变量的方式来定义
+方法 描述对象的动作信息 API  应用程序编程接口（这里所描述的接口不是interface） API 包括源码、字节码、帮助文档【在使用的时候注意版本号一致】  Java两种数据类型  基本数据类型 引用数据类型  Java中class属于引用数据类型   成员变量 {类体} = 属性 &#43; 方法
+ 变量定义在类体当中，方法体之外，这种变量称为成员变量  实例变量  对于对象级别的变量，必须先创建对象才能进行访问称为实例变量 不创建对象，实例变量的内存不存在  JVM中的内存  方法区内存：在类加载的时候，class字节码的代码片段加载到该内存中 栈内存：在方法区中的方法代码片段执行的时候，会给该方法开辟内存空间，压栈 堆内存：存储new运算符所创建的对象，在堆内存中开辟过内存空间的称为对象，而在栈内存中实例化对象即Student s = new Student()此时s称为引用，因为s保存对象的内存地址  JavaSE  Java的标准版本 SUN公司为Java程序员提供的一套基础类库，这项基础类库包括基础语法、面向对象、异常、IO、集合、反射、线程…… JavaSE由Oracle维护 JavaSE源码在Java_Home\src.zip,字节码在Java_Home\lib\rt.jar,帮助文档（未知）  JavaEE  Java企业版 SUN公司为Java程序员准备另一套庞大类库，帮助程序员完成企业级项目开发 JavaEE规范是一个比较庞大的规范  </content>
+    </entry>
+    
+</search>
